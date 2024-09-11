@@ -954,18 +954,30 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="CookingZone.cs" t="Include" />
+          <e p="FoodContent" t="Include">
+            <e p="Burger.cs" t="Include" />
+            <e p="Food.cs" t="Include" />
+          </e>
+          <e p="ImageLoader.cs" t="Include" />
           <e p="InputContent" t="Include">
             <e p="IInput.cs" t="Include" />
             <e p="JoystickHandler.cs" t="Include" />
           </e>
           <e p="Installers" t="Include">
+            <e p="CameraInstaller.cs" t="Include" />
+            <e p="CookingInstaller.cs" t="Include" />
             <e p="InputInstaller.cs" t="Include" />
+            <e p="PlayerInstaller.cs" t="Include" />
           </e>
+          <e p="LookingCamera.cs" t="Include" />
           <e p="PlayerContent" t="Include">
             <e p="Player.cs" t="Include" />
             <e p="PlayerAnimation.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>
+          <e p="Stove.cs" t="Include" />
         </e>
       </e>
       <e p="BurgerRestaraunt.sln" t="IncludeFlat" />
