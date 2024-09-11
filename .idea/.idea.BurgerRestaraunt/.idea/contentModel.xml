@@ -972,6 +972,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AcceptingOrder.cs" t="Include" />
           <e p="AcceptingOrderZone.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="ClientsContent" t="Include">
@@ -1005,6 +1006,7 @@
             <e p="PlayerAnimation.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>
+          <e p="QueueReceive.cs" t="Include" />
           <e p="QueueWait.cs" t="Include" />
           <e p="Stove.cs" t="Include" />
         </e>
