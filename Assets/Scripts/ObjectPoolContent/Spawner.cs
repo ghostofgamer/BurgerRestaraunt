@@ -5,6 +5,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private Transform _container;
     [SerializeField] private Transform _startPosition;
     [SerializeField]private Client _client;
+    [SerializeField]private QueueWait _queueWait;
 
     private ObjectPool<Client> _clientPool;
     private int _maxAmountClients = 3;
@@ -23,6 +24,7 @@ public class Spawner : MonoBehaviour
             if (_clientPool.TryGetObject(out Client client, _client))
             {
                 client.transform.position = _startPosition.position;
+                _queueWait.Add(client);
             }
         }
     }

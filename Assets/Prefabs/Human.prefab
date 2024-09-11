@@ -41,10 +41,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 513140473433349866}
-  - component: {fileID: 42137648330160396}
   - component: {fileID: 42137648330160397}
   - component: {fileID: 42137648330160399}
   - component: {fileID: -128620670849425365}
+  - component: {fileID: -4558351695242068860}
+  - component: {fileID: 8101551132339903588}
   m_Layer: 0
   m_Name: Human
   m_TagString: Untagged
@@ -69,22 +70,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &42137648330160396
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888574883987883088}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &42137648330160397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -131,6 +116,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1abe88b5d45b6da4aa41a302965019da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-4558351695242068860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888574883987883088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 039cdc8d2c18ec94bb53bb2eda70f7fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _agent: {fileID: 8101551132339903588}
+--- !u!195 &8101551132339903588
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888574883987883088}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1.35
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1519950736536792847
 GameObject:
   m_ObjectHideFlags: 0

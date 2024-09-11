@@ -32,6 +32,24 @@
             </e>
           </e>
         </e>
+        <e p="NavMeshComponents" t="Include">
+          <e p="Editor" t="Include">
+            <e p="NavMeshAssetManager.cs" t="Include" />
+            <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+            <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+            <e p="NavMeshLinkEditor.cs" t="Include" />
+            <e p="NavMeshModifierEditor.cs" t="Include" />
+            <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+            <e p="NavMeshSurfaceEditor.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="NavMeshComponents.asmdef" t="Include" />
+            <e p="NavMeshLink.cs" t="Include" />
+            <e p="NavMeshModifier.cs" t="Include" />
+            <e p="NavMeshModifierVolume.cs" t="Include" />
+            <e p="NavMeshSurface.cs" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Zenject" t="Include">
             <e p="LICENSE.txt" t="Include" />
@@ -954,8 +972,13 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AcceptingOrderZone.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
-          <e p="Client.cs" t="Include" />
+          <e p="ClientsContent" t="Include">
+            <e p="Client.cs" t="Include" />
+            <e p="ClientMover.cs" t="Include" />
+          </e>
+          <e p="ClientZone.cs" t="Include" />
           <e p="CookingZone.cs" t="Include" />
           <e p="FoodContent" t="Include">
             <e p="Burger.cs" t="Include" />
@@ -982,10 +1005,13 @@
             <e p="PlayerAnimation.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>
+          <e p="QueueWait.cs" t="Include" />
           <e p="Stove.cs" t="Include" />
         </e>
       </e>
       <e p="BurgerRestaraunt.sln" t="IncludeFlat" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
