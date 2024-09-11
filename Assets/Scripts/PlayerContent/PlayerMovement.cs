@@ -1,24 +1,52 @@
 using UnityEngine;
 using Zenject;
 
-public class PlayerMovement : MonoBehaviour
+namespace PlayerContent
 {
-    [Inject]private IInput _input;
-    private float _speed = 3;
-
-    private void Update()
+    [RequireComponent(typeof(PlayerAnimation), typeof(CharacterController))]
+    public class PlayerMovement : MonoBehaviour
     {
-        Move(_input.GetDirection());
-    }
+        [Inject] private IInput _input;
+        private float _speedMove = 3;
+        private float _speedRotation = 6;
+        private PlayerAnimation _playerAnimation;
+        private bool _isWalk;
+        private CharacterController _characterController;
 
-    public void Move(Vector3 moveDirection)
-    {
-        if (moveDirection != Vector3.zero)
+        private void Start()
         {
-            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, _speed * Time.deltaTime);
+            _playerAnimation = GetComponent<PlayerAnimation>();
+            _characterController = GetComponent<CharacterController>();
         }
 
-        transform.position += moveDirection * _speed * Time.deltaTime;
+        private void Update()
+        {
+            Move(_input.GetDirection());
+        }
+
+        private void Move(Vector3 moveDirection)
+        {
+            if (moveDirection != Vector3.zero)
+            {
+                if (!_isWalk)
+                {
+                    _isWalk = true;
+                    _playerAnimation.SetBoolWalking(_isWalk);
+                }
+
+                Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+                transform.rotation =
+                    Quaternion.Slerp(transform.rotation, targetRotation, _speedRotation * Time.deltaTime);
+                // transform.position += moveDirection * (_speedMove * Time.deltaTime);
+                _characterController.Move(moveDirection * (_speedMove * Time.deltaTime));
+            }
+            else
+            {
+                if (!_isWalk) return;
+
+                _isWalk = false;
+                _playerAnimation.SetBoolWalking(_isWalk);
+            }
+        }
     }
 }

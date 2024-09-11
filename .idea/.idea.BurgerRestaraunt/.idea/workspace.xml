@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faab3982-80ba-4e8e-b831-c5b94e057645" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/VertexColor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/VertexColor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/New Animator Controller.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,21 +19,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JoystickHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputContent/JoystickHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IInput.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/AddedAssets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JoystickHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputContent/JoystickHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -74,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726044695572</updated>
-      <workItem from="1726044717506" duration="2057000" />
+      <workItem from="1726044717506" duration="4125000" />
     </task>
     <servers />
   </component>
@@ -87,9 +92,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="161" key="SettingsEditor" timestamp="1726045795202">
+    <state x="461" y="161" key="SettingsEditor" timestamp="1726047058904">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1726045795202" />
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1726047058904" />
   </component>
 </project>
