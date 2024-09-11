@@ -34,6 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClientZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookingCamera.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/CameraInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,7 +86,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Queue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Order.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OrderZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CashRegister.cs" />
@@ -93,8 +94,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZonу.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GiveZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/Client.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" />
       </list>
     </option>
   </component>
@@ -138,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726044695572</updated>
-      <workItem from="1726044717506" duration="20967000" />
+      <workItem from="1726044717506" duration="24233000" />
     </task>
     <servers />
   </component>
@@ -166,9 +172,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1726047058904" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1726069162103">
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1726072407986">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1726069162103" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1726072407986" />
   </component>
 </project>

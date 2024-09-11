@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using Zenject;
 using UnityEngine.AI;
@@ -8,24 +7,31 @@ public class ClientMover : MonoBehaviour
     [SerializeField] private NavMeshAgent _agent;
     
     [Inject]private Camera _camera;
+    public bool IsGoExit { get; private set; }
 
-    /*private void Update()
+    private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!IsGoExit)
+            return;
+        
+        if (_agent.remainingDistance <= _agent.stoppingDistance)
         {
-            Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            
-            if (Physics.Raycast(ray, out hit))
+            if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
             {
-                Debug.Log("Raycast hit");
-                _agent.SetDestination(hit.point);
+                Debug.Log("Target reached, disabling object.");
+                IsGoExit = false;
+                gameObject.SetActive(false);
             }
         }
-    }*/
+    }
 
     public void MovePosition(Vector3 position)
     {
         _agent.SetDestination(position);
+    }
+
+    public void GoExit()
+    {
+        IsGoExit = true;
     }
 }

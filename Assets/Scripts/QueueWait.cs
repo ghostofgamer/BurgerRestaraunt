@@ -57,22 +57,19 @@ public class QueueWait : MonoBehaviour
         _queueReceive.Add(_clients.Dequeue());
 
         for (int i = 0; i < _positionOccupied.Length; i++)
-        {
             _positionOccupied[i] = false;
-        }
-        
         
         Client[] clientsArray = _clients.ToArray();
         
         for (int i = 0; i < _clients.Count; i++)
         {
             int positionIndex = GetPosition();
+            
             if (positionIndex > -1)
             {
                 clientsArray[i].GetComponent<ClientMover>().MovePosition(_positions[positionIndex].position);
                 _positionOccupied[positionIndex] = true;
             }
-            
         }
         
         Debug.Log("Колличество после удаления " + _clients.Count);
