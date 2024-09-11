@@ -955,6 +955,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
+          <e p="Client.cs" t="Include" />
           <e p="CookingZone.cs" t="Include" />
           <e p="FoodContent" t="Include">
             <e p="Burger.cs" t="Include" />
@@ -972,6 +973,10 @@
             <e p="PlayerInstaller.cs" t="Include" />
           </e>
           <e p="LookingCamera.cs" t="Include" />
+          <e p="ObjectPoolContent" t="Include">
+            <e p="ObjectPool.cs" t="Include" />
+            <e p="Spawner.cs" t="Include" />
+          </e>
           <e p="PlayerContent" t="Include">
             <e p="Player.cs" t="Include" />
             <e p="PlayerAnimation.cs" t="Include" />

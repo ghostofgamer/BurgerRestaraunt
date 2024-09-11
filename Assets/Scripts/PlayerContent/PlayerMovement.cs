@@ -7,10 +7,11 @@ namespace PlayerContent
     public class PlayerMovement : MonoBehaviour
     {
         [Inject] private IInput _input;
+        
         private float _speedMove = 3;
         private float _speedRotation = 6;
-        private PlayerAnimation _playerAnimation;
         private bool _isWalk;
+        private PlayerAnimation _playerAnimation;
         private CharacterController _characterController;
 
         private void Start()
@@ -35,14 +36,13 @@ namespace PlayerContent
                 }
 
                 Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-                transform.rotation =
-                    Quaternion.Slerp(transform.rotation, targetRotation, _speedRotation * Time.deltaTime);
-                // transform.position += moveDirection * (_speedMove * Time.deltaTime);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, _speedRotation * Time.deltaTime);
                 _characterController.Move(moveDirection * (_speedMove * Time.deltaTime));
             }
             else
             {
-                if (!_isWalk) return;
+                if (!_isWalk) 
+                    return;
 
                 _isWalk = false;
                 _playerAnimation.SetBoolWalking(_isWalk);
