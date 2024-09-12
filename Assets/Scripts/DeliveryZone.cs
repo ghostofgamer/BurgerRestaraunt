@@ -17,10 +17,10 @@ public class DeliveryZone : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit(Collision other)
+    /*private void OnCollisionExit(Collision other)
     {
         if (other.collider.TryGetComponent(out Player player))
         {
         }
-    }
+    }*/
 }

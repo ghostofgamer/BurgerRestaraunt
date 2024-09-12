@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Zenject;
 using UnityEngine.AI;
@@ -5,12 +6,25 @@ using UnityEngine.AI;
 public class ClientMover : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent _agent;
+
+    private ClientAnimation _clientAnimation;
+    private Client _client;
+    
     
     [Inject]private Camera _camera;
+    
     public bool IsGoExit { get; private set; }
+
+    private void Start()
+    {
+        _client = GetComponent<Client>();
+        _clientAnimation = GetComponent<ClientAnimation>();
+    }
 
     private void Update()
     {
+        _clientAnimation.SetBoolWalking(_agent.velocity.magnitude > 0.1f);
+        
         if (!IsGoExit)
             return;
         
@@ -18,8 +32,8 @@ public class ClientMover : MonoBehaviour
         {
             if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
             {
-                Debug.Log("Target reached, disabling object.");
                 IsGoExit = false;
+                _client.OffFood();
                 gameObject.SetActive(false);
             }
         }

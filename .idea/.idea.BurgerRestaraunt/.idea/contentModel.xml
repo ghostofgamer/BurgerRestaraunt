@@ -977,6 +977,7 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="ClientsContent" t="Include">
             <e p="Client.cs" t="Include" />
+            <e p="ClientAnimation.cs" t="Include" />
             <e p="ClientMover.cs" t="Include" />
           </e>
           <e p="ClientZone.cs" t="Include" />
@@ -1003,6 +1004,7 @@
             <e p="ObjectPool.cs" t="Include" />
             <e p="Spawner.cs" t="Include" />
           </e>
+          <e p="OrderZoneClients.cs" t="Include" />
           <e p="PlayerContent" t="Include">
             <e p="Player.cs" t="Include" />
             <e p="PlayerAnimation.cs" t="Include" />

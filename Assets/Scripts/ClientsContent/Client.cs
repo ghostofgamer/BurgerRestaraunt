@@ -20,5 +20,6 @@ public class Client : MonoBehaviour
 
     public void OffFood()
     {
+        _food.gameObject.SetActive(false);
     }
 }

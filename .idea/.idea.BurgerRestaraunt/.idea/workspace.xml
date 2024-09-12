@@ -21,9 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="faab3982-80ba-4e8e-b831-c5b94e057645" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Client.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Client.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/CameraInstaller.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,6 +64,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/PlayerInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -96,10 +102,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GiveZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/Client.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" />
       </list>
     </option>
@@ -144,7 +152,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726044695572</updated>
-      <workItem from="1726044717506" duration="24233000" />
+      <workItem from="1726044717506" duration="24455000" />
+      <workItem from="1726123802426" duration="2365000" />
     </task>
     <servers />
   </component>
@@ -163,6 +172,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
