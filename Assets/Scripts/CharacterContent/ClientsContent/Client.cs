@@ -1,18 +1,8 @@
 using UnityEngine;
 
-public class Client : MonoBehaviour
+namespace CharacterContent.ClientsContent
 {
-    [SerializeField] private Food _food;
-    [SerializeField] private ClientMover _clientMover;
-
-    public void ShowFood()
+    public class Client : MonoBehaviour
     {
-        _food.gameObject.SetActive(true);
-        _clientMover.GoExit();
-    }
-
-    public void OffFood()
-    {
-        _food.gameObject.SetActive(false);
     }
 }

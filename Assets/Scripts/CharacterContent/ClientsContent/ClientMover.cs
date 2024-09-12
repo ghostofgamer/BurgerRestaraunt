@@ -1,51 +1,42 @@
 using PlayerContent;
 using UnityEngine;
-using Zenject;
 using UnityEngine.AI;
 
-public class ClientMover : MonoBehaviour
+namespace CharacterContent.ClientsContent
 {
-    [SerializeField] private NavMeshAgent _agent;
-
-    private CharacterAnimation _characterAnimation;
-    private Client _client;
-    
-    
-    [Inject]private Camera _camera;
-    
-    public bool IsGoExit { get; private set; }
-
-    private void Start()
+    public class ClientMover : MonoBehaviour
     {
-        _client = GetComponent<Client>();
-        _characterAnimation = GetComponent<CharacterAnimation>();
-    }
+        [SerializeField] private NavMeshAgent _agent;
+        [SerializeField] private ClientDestroy _clientDestroy;
+        
+        private CharacterAnimation _characterAnimation;
+        private bool _isGoExit;
+        private float _minVelocity = 0.1f;
 
-    private void Update()
-    {
-        _characterAnimation.SetBoolWalking(_agent.velocity.magnitude > 0.1f);
-        
-        if (!IsGoExit)
-            return;
-        
-        if (_agent.remainingDistance <= _agent.stoppingDistance)
+        private void Start()
         {
-            if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
+            _characterAnimation = GetComponent<CharacterAnimation>();
+        }
+
+        private void Update()
+        {
+            _characterAnimation.SetBoolWalking(_agent.velocity.magnitude > _minVelocity);
+
+            if (!_isGoExit)
+                return;
+
+            if (_agent.remainingDistance <= _agent.stoppingDistance)
             {
-                IsGoExit = false;
-                _client.OffFood();
-                gameObject.SetActive(false);
+                if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
+                {
+                    _isGoExit = false;
+                    _clientDestroy.OffActive();
+                }
             }
         }
-    }
 
-    public void MovePosition(Vector3 position)
-    {
-        _agent.SetDestination(position);
-    }
+        public void MovePosition(Vector3 position) => _agent.SetDestination(position);
 
-    public void GoExit()
-    {
-        IsGoExit = true;
+        public void GoExit() => _isGoExit = true;
     }
 }

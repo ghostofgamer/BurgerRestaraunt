@@ -976,15 +976,18 @@
           <e p="AcceptingOrderZone.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="CharacterContent" t="Include">
+            <e p="CharacterAnimation.cs" t="Include" />
             <e p="ClientsContent" t="Include">
               <e p="Client.cs" t="Include" />
+              <e p="ClientDestroy.cs" t="Include" />
+              <e p="ClientFoodHandler.cs" t="Include" />
               <e p="ClientMover.cs" t="Include" />
-              <e p="ClientTrigger.cs" t="Include" />
             </e>
             <e p="PlayerContent" t="Include">
-              <e p="CharacterAnimation.cs" t="Include" />
               <e p="Player.cs" t="Include" />
+              <e p="PlayerFoodhandler.cs" t="Include" />
               <e p="PlayerMovement.cs" t="Include" />
+              <e p="PlayerParameters.cs" t="Include" />
             </e>
           </e>
           <e p="ClientZone.cs" t="Include" />
@@ -1005,9 +1008,11 @@
             <e p="CookingInstaller.cs" t="Include" />
             <e p="InputInstaller.cs" t="Include" />
             <e p="PlayerInstaller.cs" t="Include" />
+            <e p="SpawnerInstaller.cs" t="Include" />
           </e>
           <e p="LookingCamera.cs" t="Include" />
           <e p="ObjectPoolContent" t="Include">
+            <e p="ClientCounter.cs" t="Include" />
             <e p="ObjectPool.cs" t="Include" />
             <e p="Spawner.cs" t="Include" />
           </e>

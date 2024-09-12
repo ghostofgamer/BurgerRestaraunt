@@ -1,4 +1,4 @@
-using PlayerContent;
+using CharacterContent.PlayerContent;
 using UnityEngine;
 using Zenject;
 
@@ -8,23 +8,22 @@ public class CookingZone : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent(out Player player))
+        if (other.TryGetComponent(out PlayerFoodHandler player))
         {
             if (player.IsThereFood)
                 return;
             
-            Debug.Log("Зашел");
             _stove.StartCooking();
         }
     }
     
     private void OnTriggerExit(Collider other)
     {
-        if (other.TryGetComponent(out Player player))
+        if (other.TryGetComponent(out PlayerFoodHandler player))
         {
             if (player.IsThereFood)
                 return;
-            Debug.Log("Вышел");
+           
             _stove.StopCooking();
         }
     }

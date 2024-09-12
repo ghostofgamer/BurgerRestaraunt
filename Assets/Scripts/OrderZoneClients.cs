@@ -1,3 +1,4 @@
+using CharacterContent.ClientsContent;
 using UnityEngine;
 
 public class OrderZoneClients : MonoBehaviour
@@ -7,12 +8,7 @@ public class OrderZoneClients : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent(out Client client))
-        {
-            gameObject.SetActive(false);
-        }
-
-        if (other.TryGetComponent(out ClientTrigger clientTrigger))
+        if (other.TryGetComponent(out ClientFoodHandler clientTrigger))
         {
             clientTrigger.GiveFood(_deliveryTable, _queueReceive);
             gameObject.SetActive(false);

@@ -1,3 +1,4 @@
+using CharacterContent.PlayerContent;
 using PlayerContent;
 using UnityEngine;
 

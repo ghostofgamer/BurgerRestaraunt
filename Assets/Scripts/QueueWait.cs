@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using CharacterContent.ClientsContent;
 using UnityEngine;
 
 public class QueueWait : MonoBehaviour

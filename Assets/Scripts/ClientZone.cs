@@ -1,3 +1,4 @@
+using CharacterContent.ClientsContent;
 using UnityEngine;
 
 public class ClientZone : MonoBehaviour
@@ -6,18 +7,9 @@ public class ClientZone : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent(out Client client))
+        if(other.TryGetComponent<Client>(out _))
         {
             _acceptingOrderZone.gameObject.SetActive(true);
-            Debug.Log("Подошел к кассе");
-        }
-    }
-
-    private void OnCollisionExit(Collision other)
-    {
-        if(other.collider.TryGetComponent(out Client client))
-        {
-            Debug.Log("Ушел от кассы");
         }
     }
 }

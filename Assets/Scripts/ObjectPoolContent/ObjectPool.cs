@@ -1,19 +1,21 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Zenject;
 
 public class ObjectPool <T>where T: MonoBehaviour
 {
     private Transform _container;
     private T _prefab;
     private List<T> _poolGeneric;
-
-    public ObjectPool(T prefab, int count, Transform container)
+    
+    // [Inject]private DiContainer _diContainer;
+    
+    public ObjectPool(T prefab, int count, Transform container,DiContainer diContainer)
     {
         _prefab = prefab;
         _container = container;
-        GetInitialization(count, prefab);
+        GetInitialization(count, prefab,diContainer);
     }
 
     public bool AutoExpand { get; private set; }
@@ -45,18 +47,19 @@ public class ObjectPool <T>where T: MonoBehaviour
             item.gameObject.SetActive(false);
     }
 
-    private void GetInitialization(int count, T prefabs)
+    private void GetInitialization(int count, T prefabs,DiContainer diContainer)
     {
         _poolGeneric = new List<T>();
 
         for (int i = 0; i < count; i++)
         {
-            var spawned = Object.Instantiate(prefabs, _container.transform);
+            // var spawned = Object.Instantiate(prefabs, _container.transform);
+            var spawned = diContainer.InstantiatePrefabForComponent<T>(prefabs, _container.transform);
             spawned.gameObject.SetActive(false);
             _poolGeneric.Add(spawned);
         }
     }
-
+    
     private T CreateObject(T prefabs)
     {
         var spawned = Object.Instantiate(prefabs, _container.transform);

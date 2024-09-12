@@ -1,4 +1,4 @@
-using PlayerContent;
+using CharacterContent.PlayerContent;
 using UnityEngine;
 
 public class DeliveryZone : MonoBehaviour
@@ -7,13 +7,13 @@ public class DeliveryZone : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent(out Player player))
+        if (_deliveryTable.IsBusyPlace)
+            return;
+
+        if (other.TryGetComponent(out PlayerFoodHandler player))
         {
             if (player.IsThereFood)
-            {
                 player.PutAwayFood();
-                // _deliveryTable.PutFood();
-            }
         }
     }
 }

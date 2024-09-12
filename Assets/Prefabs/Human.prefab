@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 8101551132339903588}
   - component: {fileID: -4280126109095675677}
   - component: {fileID: 3378626508099926092}
+  - component: {fileID: 8183589152168214646}
   m_Layer: 0
   m_Name: Human
   m_TagString: Untagged
@@ -118,8 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1abe88b5d45b6da4aa41a302965019da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _food: {fileID: 427574217070379833}
-  _clientMover: {fileID: -4558351695242068860}
 --- !u!114 &-4558351695242068860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _agent: {fileID: 8101551132339903588}
+  _clientDestroy: {fileID: 8183589152168214646}
 --- !u!195 &8101551132339903588
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -167,6 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96663700a21a1f348aed49247075feb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _food: {fileID: 427574217070379833}
+  _clientMover: {fileID: -4558351695242068860}
 --- !u!114 &3378626508099926092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +179,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78f7efc0cee4af7458a6be0b89391dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8183589152168214646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888574883987883088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bae5457b15af084aaecb96110a0934c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1519950736536792847
