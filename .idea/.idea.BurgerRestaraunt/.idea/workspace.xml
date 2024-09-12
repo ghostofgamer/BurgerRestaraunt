@@ -21,13 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="faab3982-80ba-4e8e-b831-c5b94e057645" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/New Animator Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Human.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Human.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerAnimation.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +64,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/CameraInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,7 +80,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/JoystickHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputContent/JoystickHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodContent/Food.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookingCamera.cs" />
@@ -86,7 +91,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CookingZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" />
@@ -103,11 +107,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GiveZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/Client.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" />
       </list>
     </option>
@@ -121,6 +128,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -153,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726044695572</updated>
       <workItem from="1726044717506" duration="24455000" />
-      <workItem from="1726123802426" duration="2365000" />
+      <workItem from="1726123802426" duration="5473000" />
     </task>
     <servers />
   </component>
@@ -182,6 +190,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1726047058904" />
+    <state x="616" y="238" key="run.anything.popup" timestamp="1726129481209">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="616" y="238" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1726129481209" />
     <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1726072407986">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

@@ -975,10 +975,17 @@
           <e p="AcceptingOrder.cs" t="Include" />
           <e p="AcceptingOrderZone.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
-          <e p="ClientsContent" t="Include">
-            <e p="Client.cs" t="Include" />
-            <e p="ClientAnimation.cs" t="Include" />
-            <e p="ClientMover.cs" t="Include" />
+          <e p="CharacterContent" t="Include">
+            <e p="ClientsContent" t="Include">
+              <e p="Client.cs" t="Include" />
+              <e p="ClientMover.cs" t="Include" />
+              <e p="ClientTrigger.cs" t="Include" />
+            </e>
+            <e p="PlayerContent" t="Include">
+              <e p="CharacterAnimation.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="PlayerMovement.cs" t="Include" />
+            </e>
           </e>
           <e p="ClientZone.cs" t="Include" />
           <e p="CookingZone.cs" t="Include" />
@@ -1005,11 +1012,6 @@
             <e p="Spawner.cs" t="Include" />
           </e>
           <e p="OrderZoneClients.cs" t="Include" />
-          <e p="PlayerContent" t="Include">
-            <e p="Player.cs" t="Include" />
-            <e p="PlayerAnimation.cs" t="Include" />
-            <e p="PlayerMovement.cs" t="Include" />
-          </e>
           <e p="QueueReceive.cs" t="Include" />
           <e p="QueueWait.cs" t="Include" />
           <e p="Stove.cs" t="Include" />

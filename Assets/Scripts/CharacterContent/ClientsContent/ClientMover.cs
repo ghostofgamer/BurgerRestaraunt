@@ -1,4 +1,4 @@
-using System;
+using PlayerContent;
 using UnityEngine;
 using Zenject;
 using UnityEngine.AI;
@@ -7,7 +7,7 @@ public class ClientMover : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent _agent;
 
-    private ClientAnimation _clientAnimation;
+    private CharacterAnimation _characterAnimation;
     private Client _client;
     
     
@@ -18,12 +18,12 @@ public class ClientMover : MonoBehaviour
     private void Start()
     {
         _client = GetComponent<Client>();
-        _clientAnimation = GetComponent<ClientAnimation>();
+        _characterAnimation = GetComponent<CharacterAnimation>();
     }
 
     private void Update()
     {
-        _clientAnimation.SetBoolWalking(_agent.velocity.magnitude > 0.1f);
+        _characterAnimation.SetBoolWalking(_agent.velocity.magnitude > 0.1f);
         
         if (!IsGoExit)
             return;

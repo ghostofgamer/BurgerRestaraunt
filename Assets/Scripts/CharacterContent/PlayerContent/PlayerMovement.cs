@@ -3,7 +3,7 @@ using Zenject;
 
 namespace PlayerContent
 {
-    [RequireComponent(typeof(PlayerAnimation), typeof(CharacterController))]
+    [RequireComponent(typeof(CharacterAnimation), typeof(CharacterController))]
     public class PlayerMovement : MonoBehaviour
     {
         [Inject] private IInput _input;
@@ -11,12 +11,12 @@ namespace PlayerContent
         private float _speedMove = 3;
         private float _speedRotation = 6;
         private bool _isWalk;
-        private PlayerAnimation _playerAnimation;
+        private CharacterAnimation _characterAnimation;
         private CharacterController _characterController;
 
         private void Start()
         {
-            _playerAnimation = GetComponent<PlayerAnimation>();
+            _characterAnimation = GetComponent<CharacterAnimation>();
             _characterController = GetComponent<CharacterController>();
         }
 
@@ -32,7 +32,7 @@ namespace PlayerContent
                 if (!_isWalk)
                 {
                     _isWalk = true;
-                    _playerAnimation.SetBoolWalking(_isWalk);
+                    _characterAnimation.SetBoolWalking(_isWalk);
                 }
 
                 Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
@@ -45,7 +45,7 @@ namespace PlayerContent
                     return;
 
                 _isWalk = false;
-                _playerAnimation.SetBoolWalking(_isWalk);
+                _characterAnimation.SetBoolWalking(_isWalk);
             }
         }
     }

@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class Client : MonoBehaviour
@@ -8,12 +7,6 @@ public class Client : MonoBehaviour
 
     public void ShowFood()
     {
-        StartCoroutine(StartTakeFood());
-    }
-
-    private IEnumerator StartTakeFood()
-    {
-        yield return new WaitForSeconds(1f);
         _food.gameObject.SetActive(true);
         _clientMover.GoExit();
     }

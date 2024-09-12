@@ -10,24 +10,18 @@ public class DeliveryTable : MonoBehaviour
 
     public void PutFood()
     {
-        _food.gameObject.SetActive(true);
         _orderZoneClients.gameObject.SetActive(true);
-        _isBusyPlace = true;
-
-
-        // _food.gameObject.SetActive(false);
-
-
-
-
-        /*Client client = _queueReceive.GetClient();
-        client.ShowFood();*/
-        // _queueReceive.LeaveQueue();
+        SetActiveFoodValue(true);
     }
 
     public void RemoveFood()
     {
-        _isBusyPlace = false;
-        _food.gameObject.SetActive(false);
+        SetActiveFoodValue(false);
+    }
+
+    private void SetActiveFoodValue(bool value)
+    {
+        _isBusyPlace = value;
+        _food.gameObject.SetActive(value);
     }
 }

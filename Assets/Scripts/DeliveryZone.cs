@@ -12,15 +12,8 @@ public class DeliveryZone : MonoBehaviour
             if (player.IsThereFood)
             {
                 player.PutAwayFood();
-                _deliveryTable.PutFood();
+                // _deliveryTable.PutFood();
             }
         }
     }
-
-    /*private void OnCollisionExit(Collision other)
-    {
-        if (other.collider.TryGetComponent(out Player player))
-        {
-        }
-    }*/
 }
