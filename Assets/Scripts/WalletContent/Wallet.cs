@@ -7,9 +7,9 @@ namespace WalletContent
     {
         [SerializeField] private AcceptingOrder _acceptingOrder;
         
-        public int Money { get; private set; }
-        
         public event Action AmountMoneyChanged;
+        
+        public int Money { get; private set; }
 
         private void OnEnable()
         {

@@ -1,3 +1,4 @@
+using System.Collections;
 using CharacterContent.ClientsContent;
 using UnityEngine;
 using Zenject;
@@ -11,23 +12,44 @@ namespace ObjectPoolContent
         [SerializeField] private Client _client;
         [SerializeField] private QueueWait _queueWait;
         [SerializeField] private ClientCounter _clientCounter;
+        [SerializeField] private float _minDuration;
+        [SerializeField] private float _maxDuration;
 
         private ObjectPool<Client> _clientPool;
+        private WaitForSeconds _waitForSeconds;
+        private Coroutine _coroutine;
+        private bool _isWorking;
         private bool _autoExpand = false;
-        [Inject]private DiContainer _diContainer;
-        
+        private float _currentDuration = 0;
+        [Inject] private DiContainer _diContainer;
+
         private void Start()
         {
-            _clientPool = new ObjectPool<Client>(_client, _clientCounter.MaxAmountClients, _container,_diContainer);
+            _clientPool = new ObjectPool<Client>(_client, _clientCounter.MaxAmountClients, _container, _diContainer);
             _clientPool.SetAutoExpand(_autoExpand);
-        }
+            _isWorking = true;
 
-        private void Update()
+            if (_coroutine != null)
+            {
+                StopCoroutine(_coroutine);
+                _coroutine = null;
+            }
+            
+            _coroutine =  StartCoroutine(SpawnClient());
+        }
+        
+        private IEnumerator SpawnClient()
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            while (_isWorking)
             {
                 if (_clientCounter.IsClientsLimit)
-                    return;
+                {
+                    yield return null;
+                    continue;
+                }
+
+                _currentDuration = Random.Range(_minDuration, _maxDuration);
+                yield return new WaitForSeconds(_currentDuration);
                 
                 if (_clientPool.TryGetObject(out Client client, _client))
                 {

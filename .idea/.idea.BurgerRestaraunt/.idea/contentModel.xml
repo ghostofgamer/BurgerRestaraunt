@@ -1020,6 +1020,17 @@
           <e p="QueueReceive.cs" t="Include" />
           <e p="QueueWait.cs" t="Include" />
           <e p="Stove.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="Buttons" t="Include">
+              <e p="AbstractButton.cs" t="Include" />
+              <e p="UpgradeButton.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UpgradesContent" t="Include">
+            <e p="IIpgrades.cs" t="Include" />
+            <e p="Upgrades.cs" t="Include" />
+            <e p="VisualUpgrades.cs" t="Include" />
+          </e>
           <e p="WalletContent" t="Include">
             <e p="Wallet.cs" t="Include" />
             <e p="WalletVisualizer.cs" t="Include" />

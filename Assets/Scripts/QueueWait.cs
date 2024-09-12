@@ -36,8 +36,6 @@ public class QueueWait : MonoBehaviour
             client.GetComponent<ClientMover>().MovePosition(_positions[positionIndex].position);
             _positionOccupied[positionIndex] = true;
         }
-
-        Debug.Log(_clients.Count);
     }
 
     private int GetPosition()
@@ -72,7 +70,5 @@ public class QueueWait : MonoBehaviour
                 _positionOccupied[positionIndex] = true;
             }
         }
-        
-        Debug.Log("Колличество после удаления " + _clients.Count);
     }
 }

@@ -23,10 +23,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Button01_Blue.Png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Button01_Blue.Png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/CardFrame06_Bg_Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/CardFrame06_Bg_Blue.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradesContent/IIpgrades.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClientZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradesContent/Upgrades.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookingCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stove.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodContent/Food.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Buttons/UpgradeButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputContent/JoystickHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CookingZone.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,6 +64,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradesContent/VisualUpgrades.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/CameraInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,12 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Installers/PlayerInstallers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Installers/CameraInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Installers/PlayerInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Stove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Queue.cs" />
@@ -88,7 +86,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GiveZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientAnimation.cs" />
@@ -115,13 +112,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/IIpgrades.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AbstractButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/AbstractButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/UpgradeButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/VisualUpgrades.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/Upgrades.cs" />
       </list>
     </option>
   </component>
@@ -167,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726044695572</updated>
       <workItem from="1726044717506" duration="24455000" />
-      <workItem from="1726123802426" duration="12741000" />
+      <workItem from="1726123802426" duration="19411000" />
     </task>
     <servers />
   </component>
@@ -200,9 +204,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="616" y="238" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1726129481209" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1726134855239">
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1726141139347">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1726134855239" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1726141139347" />
   </component>
 </project>
