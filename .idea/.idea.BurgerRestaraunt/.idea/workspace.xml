@@ -20,48 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faab3982-80ba-4e8e-b831-c5b94e057645" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientFoodHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientFoodHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CookingZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CookingZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FoodContent/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FoodContent/Food.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputContent/IInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputContent/IInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookingCamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookingCamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ParametersLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ParametersLoad.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stove.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stove.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientsCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AbstractButton.cs" />
@@ -130,7 +89,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/PlayerUpgrades.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientFoodHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodContent/Food.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputContent/IInput.cs" />
@@ -151,7 +109,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ParametersLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Queues/QueueWait.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorkPlaceContent/WorkPlace.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorkPlaceContent/AcceptingOrder.cs" />
@@ -159,6 +116,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZonesContent/CookingZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorkPlaceContent/Stove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" />
       </list>
     </option>
   </component>
@@ -176,6 +136,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Bild\TestBurgerRestaraunt.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Repository\BurgerRestaraunt\Bild" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -204,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726044695572</updated>
       <workItem from="1726044717506" duration="24455000" />
-      <workItem from="1726123802426" duration="29041000" />
+      <workItem from="1726123802426" duration="29865000" />
     </task>
     <servers />
   </component>
