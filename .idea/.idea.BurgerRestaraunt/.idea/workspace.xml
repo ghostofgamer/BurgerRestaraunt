@@ -20,31 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faab3982-80ba-4e8e-b831-c5b94e057645" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientFoodHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Human.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Human.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientTrigger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientFoodHandler.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/CharacterAnimation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/CharacterAnimation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClientZone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CookingZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CookingZone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/PlayerInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/PlayerInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Button01_Blue.Png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Button01_Blue.Png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/CardFrame06_Bg_Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/CardFrame06_Bg_Blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CookingZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerParameters.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,6 +59,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/Client.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/CameraInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" root0="FORCE_HIGHLIGHTING" />
@@ -87,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookingCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Installers/CameraInstallers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Installers/PlayerInstallers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Installers/CameraInstaller.cs" />
@@ -138,6 +120,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" />
       </list>
     </option>
   </component>
@@ -183,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726044695572</updated>
       <workItem from="1726044717506" duration="24455000" />
-      <workItem from="1726123802426" duration="11455000" />
+      <workItem from="1726123802426" duration="12741000" />
     </task>
     <servers />
   </component>
