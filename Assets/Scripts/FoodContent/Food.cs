@@ -1,6 +1,8 @@
 using UnityEngine;
 
-public abstract class Food : MonoBehaviour
+namespace FoodContent
 {
-
+    public abstract class Food : MonoBehaviour
+    {
+    }
 }

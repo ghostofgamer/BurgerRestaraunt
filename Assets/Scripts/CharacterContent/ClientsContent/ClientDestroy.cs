@@ -1,15 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
+using ObjectPoolContent;
 using UnityEngine;
 using Zenject;
 
-public class ClientDestroy : MonoBehaviour
+namespace CharacterContent.ClientsContent
 {
-    [Inject]private ClientCounter _clientCounter;
-
-    public void OffActive()
+    public class ClientDestroy : MonoBehaviour
     {
-        _clientCounter.RemoveClient();
-        gameObject.SetActive(false);
+        [Inject]private ClientCounter _clientCounter;
+
+        public void OffActive()
+        {
+            _clientCounter.RemoveClient();
+            gameObject.SetActive(false);
+        }
     }
 }

@@ -1,30 +1,25 @@
 using System;
 using UnityEngine;
+using WorkPlaceContent;
 
 namespace WalletContent
 {
     public class Wallet : MonoBehaviour
     {
         [SerializeField] private AcceptingOrder _acceptingOrder;
-        
+
         public event Action AmountMoneyChanged;
         
         public int Money { get; private set; }
 
         private void OnEnable()
         {
-            _acceptingOrder.AcceptingOrderFinished += IncreaseMoney;
+            _acceptingOrder.WorkCompleted += IncreaseMoney;
         }
 
         private void OnDisable()
         {
-            _acceptingOrder.AcceptingOrderFinished -= IncreaseMoney;
-        }
-
-        private void IncreaseMoney()
-        {
-            Money++;
-            AmountMoneyChanged?.Invoke();
+            _acceptingOrder.WorkCompleted -= IncreaseMoney;
         }
 
         public void DecreaseMoney(int value)
@@ -33,6 +28,12 @@ namespace WalletContent
                 return;
 
             Money -= value;
+            AmountMoneyChanged?.Invoke();
+        }
+
+        private void IncreaseMoney()
+        {
+            Money++;
             AmountMoneyChanged?.Invoke();
         }
     }

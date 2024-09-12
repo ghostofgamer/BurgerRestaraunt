@@ -10,6 +10,5 @@ public class ParametersLoad : MonoBehaviour
     public void DecreaseDuration()
     {
         _duration *= _factorDecreaseDuration;
-        Debug.Log("Parameters " + _duration);
     }
 }

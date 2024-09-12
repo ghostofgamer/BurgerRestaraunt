@@ -1,9 +1,13 @@
+using FoodContent;
 using UnityEngine;
+using Zenject;
+using ZonesContent;
 
 public class DeliveryTable : MonoBehaviour
 {
     [SerializeField] private Food _food;
-    [SerializeField] private OrderZoneClients _orderZoneClients;
+    
+    [Inject] private OrderZoneClients _orderZoneClients;
 
     public bool IsBusyPlace { get; private set; }
 

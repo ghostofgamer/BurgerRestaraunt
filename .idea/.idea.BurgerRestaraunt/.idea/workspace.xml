@@ -23,12 +23,45 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BurgerRestaraunt/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerParameters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/IIpgrades.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/IIpgrades.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/Upgrades.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/Upgrades.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientFoodHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientFoodHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClientZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CookingZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CookingZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FoodContent/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FoodContent/Food.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputContent/IInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputContent/IInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookingCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookingCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ParametersLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ParametersLoad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,80 +73,45 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClientZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradesContent/Upgrades.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradesContent/PlayerUpgrades.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookingCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodContent/Food.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParametersLoad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Buttons/UpgradeButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputContent/JoystickHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CookingZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Queues/QueueReceive.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ZonesContent/AcceptingOrderZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraContent/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/QueueInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParametersLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Buttons/UpgradeButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WorkPlaceContent/WorkPlace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerParameters.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WorkPlaceContent/AcceptingOrder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcceptingOrderZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradesContent/VisualUpgrades.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/CameraInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradesContent/DurationUpgrades.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/InputInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Queues/AbstractQueue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Installers/PlayerInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradesContent/StoveUpgrades.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/QueueReceive.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/PlayerAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/Client.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ClientsContent/ClientMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerContent/CharacterAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerParametrs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/Foodandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/FoodHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/Client.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientFoodHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OrderZoneClients.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ClientZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodbandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CookingZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientsCounter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientCounter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QueueWait.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AbstractButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/AbstractButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/UpgradeButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/VisualUpgrades.cs" />
@@ -122,15 +120,45 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/IUpgrades.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/Upgrades.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerParameters.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ParametersLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AcceptingOrder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/OrderUpgrades.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/DurationUpgradesUpgrades.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/DurationUpgradesUpgradesUpgrades.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/DurationUpgrades.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/PlayerUpgrades.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/StoveUpgrades.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradesContent/PlayerUpgrades.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientFoodHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/ClientsContent/ClientMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FoodContent/Food.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FoodContent/Burger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputContent/IInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ClientCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/ObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolContent/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/WalletVisualizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraContent/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraContent/LookingCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Queues/QueueReceive.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Queues/AbstractQueue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/DiContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ZonesContent/OrderZoneClients.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ZonesContent/DeliveryZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ZonesContent/ClientZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Installers/SpawnerInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Installers/QueueInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ParametersLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Installers/CookingInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeliveryTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WalletContent/Wallet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Queues/QueueWait.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WorkPlaceContent/WorkPlace.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WorkPlaceContent/AcceptingOrder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ZonesContent/AcceptingOrderZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterContent/PlayerContent/PlayerFoodHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ZonesContent/CookingZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WorkPlaceContent/Stove.cs" />
       </list>
     </option>
   </component>
@@ -176,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726044695572</updated>
       <workItem from="1726044717506" duration="24455000" />
-      <workItem from="1726123802426" duration="21048000" />
+      <workItem from="1726123802426" duration="29041000" />
     </task>
     <servers />
   </component>

@@ -1,14 +1,17 @@
 using System.Collections;
+using FoodContent;
 using PlayerContent;
+using Queues;
 using UnityEngine;
 
 namespace CharacterContent.ClientsContent
 {
+    [RequireComponent(typeof(CharacterAnimation), typeof(ClientMover))]
     public class ClientFoodHandler : MonoBehaviour
     {
         [SerializeField] private Food _food;
-        [SerializeField] private ClientMover _clientMover;
 
+        private ClientMover _clientMover;
         private CharacterAnimation _characterAnimation;
         private WaitForSeconds _waitForSeconds = new WaitForSeconds(0.5f);
         private Coroutine _coroutine;
@@ -21,6 +24,7 @@ namespace CharacterContent.ClientsContent
         private void Start()
         {
             _characterAnimation = GetComponent<CharacterAnimation>();
+            _clientMover = GetComponent<ClientMover>();
         }
 
         public void GiveFood(DeliveryTable deliveryTable, QueueReceive queueReceive)

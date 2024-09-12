@@ -972,9 +972,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AcceptingOrder.cs" t="Include" />
-          <e p="AcceptingOrderZone.cs" t="Include" />
-          <e p="CameraFollow.cs" t="Include" />
+          <e p="CameraContent" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="LookingCamera.cs" t="Include" />
+          </e>
           <e p="CharacterContent" t="Include">
             <e p="CharacterAnimation.cs" t="Include" />
             <e p="ClientsContent" t="Include">
@@ -990,10 +991,7 @@
               <e p="PlayerParameters.cs" t="Include" />
             </e>
           </e>
-          <e p="ClientZone.cs" t="Include" />
-          <e p="CookingZone.cs" t="Include" />
           <e p="DeliveryTable.cs" t="Include" />
-          <e p="DeliveryZone.cs" t="Include" />
           <e p="FoodContent" t="Include">
             <e p="Burger.cs" t="Include" />
             <e p="Food.cs" t="Include" />
@@ -1008,19 +1006,20 @@
             <e p="CookingInstaller.cs" t="Include" />
             <e p="InputInstaller.cs" t="Include" />
             <e p="PlayerInstaller.cs" t="Include" />
+            <e p="QueueInstaller.cs" t="Include" />
             <e p="SpawnerInstaller.cs" t="Include" />
           </e>
-          <e p="LookingCamera.cs" t="Include" />
           <e p="ObjectPoolContent" t="Include">
             <e p="ClientCounter.cs" t="Include" />
             <e p="ObjectPool.cs" t="Include" />
             <e p="Spawner.cs" t="Include" />
           </e>
-          <e p="OrderZoneClients.cs" t="Include" />
           <e p="ParametersLoad.cs" t="Include" />
-          <e p="QueueReceive.cs" t="Include" />
-          <e p="QueueWait.cs" t="Include" />
-          <e p="Stove.cs" t="Include" />
+          <e p="Queues" t="Include">
+            <e p="AbstractQueue.cs" t="Include" />
+            <e p="QueueReceive.cs" t="Include" />
+            <e p="QueueWait.cs" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="Buttons" t="Include">
               <e p="AbstractButton.cs" t="Include" />
@@ -1030,13 +1029,24 @@
           <e p="UpgradesContent" t="Include">
             <e p="DurationUpgrades.cs" t="Include" />
             <e p="PlayerUpgrades.cs" t="Include" />
-            <e p="StoveUpgrades.cs" t="Include" />
             <e p="Upgrades.cs" t="Include" />
             <e p="VisualUpgrades.cs" t="Include" />
           </e>
           <e p="WalletContent" t="Include">
             <e p="Wallet.cs" t="Include" />
             <e p="WalletVisualizer.cs" t="Include" />
+          </e>
+          <e p="WorkPlaceContent" t="Include">
+            <e p="AcceptingOrder.cs" t="Include" />
+            <e p="Stove.cs" t="Include" />
+            <e p="WorkPlace.cs" t="Include" />
+          </e>
+          <e p="ZonesContent" t="Include">
+            <e p="AcceptingOrderZone.cs" t="Include" />
+            <e p="ClientZone.cs" t="Include" />
+            <e p="CookingZone.cs" t="Include" />
+            <e p="DeliveryZone.cs" t="Include" />
+            <e p="OrderZoneClients.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

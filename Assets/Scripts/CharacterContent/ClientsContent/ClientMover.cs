@@ -4,18 +4,20 @@ using UnityEngine.AI;
 
 namespace CharacterContent.ClientsContent
 {
+    [RequireComponent(typeof(CharacterAnimation), typeof(NavMeshAgent), typeof(ClientDestroy))]
     public class ClientMover : MonoBehaviour
     {
-        [SerializeField] private NavMeshAgent _agent;
-        [SerializeField] private ClientDestroy _clientDestroy;
-        
+        private NavMeshAgent _agent;
+        private ClientDestroy _clientDestroy;
         private CharacterAnimation _characterAnimation;
         private bool _isGoExit;
         private float _minVelocity = 0.1f;
 
-        private void Start()
+        private void Awake()
         {
             _characterAnimation = GetComponent<CharacterAnimation>();
+            _agent = GetComponent<NavMeshAgent>();
+            _clientDestroy = GetComponent<ClientDestroy>();
         }
 
         private void Update()

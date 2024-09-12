@@ -1,6 +1,8 @@
 using System.Collections;
+using FoodContent;
 using PlayerContent;
 using UnityEngine;
+using WorkPlaceContent;
 using Zenject;
 
 namespace CharacterContent.PlayerContent
@@ -20,12 +22,12 @@ namespace CharacterContent.PlayerContent
 
         private void OnEnable()
         {
-            _stove.CookingFinished += TakeFood;
+            _stove.WorkCompleted += TakeFood;
         }
 
         private void OnDisable()
         {
-            _stove.CookingFinished -= TakeFood;
+            _stove.WorkCompleted -= TakeFood;
         }
 
         private void Start()

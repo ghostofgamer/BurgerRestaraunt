@@ -1514,8 +1514,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12451921af1a7224e9c920a0c3ee1845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _deliveryTable: {fileID: 1057394041}
-  _queueReceive: {fileID: 819945204}
 --- !u!1 &498371591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,10 +1805,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b88eff30dc664b64586a38db530cf629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loadImage: {fileID: 1618609490}
-  _loadFill: {fileID: 1122364106}
   _imageLoader: {fileID: 327091724}
   _stove: {fileID: 2076777951}
+  _deliveryTable: {fileID: 1057394041}
+  _acceptingOrder: {fileID: 498371596}
+  _acceptingOrderZone: {fileID: 1239218926}
+  _orderZoneClients: {fileID: 496629408}
 --- !u!4 &642421177
 Transform:
   m_ObjectHideFlags: 0
@@ -2051,9 +2051,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _container: {fileID: 683694774}
   _startPosition: {fileID: 1173403122}
-  _client: {fileID: -128620670849425365, guid: 7890bd5395909144f819a1fbc9ea2df3, type: 3}
-  _queueWait: {fileID: 819945202}
-  _clientCounter: {fileID: 1197680828}
   _minDuration: 1
   _maxDuration: 3
 --- !u!4 &683694774
@@ -2249,7 +2246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72e88512abfccf143b8dac1bdbef641f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _acceptingOrderZone: {fileID: 1239218926}
 --- !u!54 &754312582
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2339,8 +2335,6 @@ MonoBehaviour:
   - {fileID: 305745258}
   - {fileID: 1645508464}
   - {fileID: 434555277}
-  _acceptingOrder: {fileID: 498371596}
-  _queueReceive: {fileID: 819945204}
 --- !u!4 &819945203
 Transform:
   m_ObjectHideFlags: 0
@@ -2454,6 +2448,7 @@ MonoBehaviour:
   - {fileID: 935429940}
   - {fileID: 642421176}
   - {fileID: 1950320849}
+  - {fileID: 2002848849}
   _installerPrefabs: []
   _autoRun: 1
   OnPreInstall:
@@ -2488,6 +2483,7 @@ Transform:
   - {fileID: 935429939}
   - {fileID: 642421177}
   - {fileID: 1950320850}
+  - {fileID: 2002848850}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3002,7 +2998,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _food: {fileID: 61664288}
-  _orderZoneClients: {fileID: 496629408}
 --- !u!1001 &1113901424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3670,7 +3665,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c90c62f522a5d814d8be65844b467d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _acceptingOrder: {fileID: 498371596}
 --- !u!1 &1295484467
 GameObject:
   m_ObjectHideFlags: 0
@@ -6124,6 +6118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clientCounter: {fileID: 1197680828}
+  _client: {fileID: -128620670849425365, guid: 7890bd5395909144f819a1fbc9ea2df3, type: 3}
 --- !u!4 &1950320850
 Transform:
   m_ObjectHideFlags: 0
@@ -6464,7 +6459,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757e1c823163ba445a6ed6153284b867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _deliveryTable: {fileID: 1057394041}
+--- !u!1 &2002848848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2002848850}
+  - component: {fileID: 2002848849}
+  m_Layer: 0
+  m_Name: QueueInstaller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2002848849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002848848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5128c5ff9cbba40b44e9ed196d0dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _queueReceive: {fileID: 819945204}
+  _queueWait: {fileID: 819945202}
+--- !u!4 &2002848850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002848848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 839713903}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2025722846
 GameObject:
   m_ObjectHideFlags: 0

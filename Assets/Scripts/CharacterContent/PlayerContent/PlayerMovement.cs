@@ -1,3 +1,4 @@
+using InputContent;
 using PlayerContent;
 using UnityEngine;
 using Zenject;

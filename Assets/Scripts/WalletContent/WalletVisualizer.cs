@@ -1,29 +1,31 @@
 using TMPro;
 using UnityEngine;
-using WalletContent;
 
-public class WalletVisualizer : MonoBehaviour
+namespace WalletContent
 {
-    [SerializeField] private TMP_Text _moneyText;
-    [SerializeField] private Wallet _wallet;
-
-    private void OnEnable()
+    public class WalletVisualizer : MonoBehaviour
     {
-        _wallet.AmountMoneyChanged += ShowMoney;
-    }
+        [SerializeField] private TMP_Text _moneyText;
+        [SerializeField] private Wallet _wallet;
 
-    private void OnDisable()
-    {
-        _wallet.AmountMoneyChanged -= ShowMoney;
-    }
+        private void OnEnable()
+        {
+            _wallet.AmountMoneyChanged += ShowMoney;
+        }
 
-    private void Start()
-    {
-        ShowMoney();
-    }
+        private void OnDisable()
+        {
+            _wallet.AmountMoneyChanged -= ShowMoney;
+        }
 
-    private void ShowMoney()
-    {
-        _moneyText.text = _wallet.Money.ToString();
+        private void Start()
+        {
+            ShowMoney();
+        }
+
+        private void ShowMoney()
+        {
+            _moneyText.text = _wallet.Money.ToString();
+        }
     }
 }

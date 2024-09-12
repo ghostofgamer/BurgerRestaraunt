@@ -2,13 +2,16 @@ using InputContent;
 using UnityEngine;
 using Zenject;
 
-public class InputInstaller : MonoInstaller
+namespace Installers
 {
-    [SerializeField] private Joystick _joystick;
-
-    public override void InstallBindings()
+    public class InputInstaller : MonoInstaller
     {
-        Container.Bind<IInput>().To<JoystickHandler>().AsSingle().NonLazy();
-        Container.Bind<Joystick>().FromInstance(_joystick).AsSingle().NonLazy();
+        [SerializeField] private Joystick _joystick;
+
+        public override void InstallBindings()
+        {
+            Container.Bind<IInput>().To<JoystickHandler>().AsSingle().NonLazy();
+            Container.Bind<Joystick>().FromInstance(_joystick).AsSingle().NonLazy();
+        }
     }
 }
