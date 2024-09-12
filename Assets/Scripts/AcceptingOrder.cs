@@ -8,11 +8,11 @@ public class AcceptingOrder : MonoBehaviour
 {
     [SerializeField] private Image _loadImage;
     [SerializeField] private Image _loadFill;
-
+    [SerializeField] private ParametersLoad _parametersLoad;
+    
     [Inject] private ImageLoader _imageLoader;
     
     private bool _isAcceptingOrder;
-    private float _duration = 3f;
     private float _elapsedTime;
     private Coroutine _coroutine;
 
@@ -44,11 +44,10 @@ public class AcceptingOrder : MonoBehaviour
     {
         if (_isAcceptingOrder)
         {
-            _imageLoader.PlayLoading(_duration, _loadFill);
-            yield return new WaitForSeconds(_duration);
+            _imageLoader.PlayLoading(_parametersLoad.Duration, _loadFill);
+            yield return new WaitForSeconds(_parametersLoad.Duration);
             AcceptingOrderFinished?.Invoke();
             StopAcceptingOrder();
-            Debug.Log("Finish");
         }
     }
 }

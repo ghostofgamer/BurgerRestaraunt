@@ -4,7 +4,7 @@ using WalletContent;
 
 namespace UpgradesContent
 {
-    public class Upgrades : MonoBehaviour
+    public abstract class Upgrades : MonoBehaviour
     {
         [SerializeField] private Wallet _wallet;
         [SerializeField] private int _price;
@@ -28,7 +28,7 @@ namespace UpgradesContent
             return _wallet.Money >= _price;
         }
 
-        public void Upgrade()
+        public virtual void Upgrade()
         {
             _wallet.DecreaseMoney(_price);
             _level++;

@@ -8,11 +8,10 @@ public class Stove : MonoBehaviour
 {
     [SerializeField] private Image _loadImage;
     [SerializeField] private Image _loadFill;
-
+    [SerializeField] private ParametersLoad _parametersLoad;
     [Inject] private ImageLoader _imageLoader;
 
     private bool _isCooking;
-    private float _duration = 3f;
     private float _elapsedTime;
     private Coroutine _coroutine;
 
@@ -44,11 +43,10 @@ public class Stove : MonoBehaviour
     {
         if (_isCooking)
         {
-            _imageLoader.PlayLoading(_duration, _loadFill);
-            yield return new WaitForSeconds(_duration);
+            _imageLoader.PlayLoading(_parametersLoad.Duration, _loadFill);
+            yield return new WaitForSeconds(_parametersLoad.Duration);
             CookingFinished?.Invoke();
             StopCooking();
-            Debug.Log("Finish");
         }
     }
 }

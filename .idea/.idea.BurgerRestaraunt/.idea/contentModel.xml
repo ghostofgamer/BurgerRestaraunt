@@ -1017,6 +1017,7 @@
             <e p="Spawner.cs" t="Include" />
           </e>
           <e p="OrderZoneClients.cs" t="Include" />
+          <e p="ParametersLoad.cs" t="Include" />
           <e p="QueueReceive.cs" t="Include" />
           <e p="QueueWait.cs" t="Include" />
           <e p="Stove.cs" t="Include" />
@@ -1027,7 +1028,9 @@
             </e>
           </e>
           <e p="UpgradesContent" t="Include">
-            <e p="IIpgrades.cs" t="Include" />
+            <e p="DurationUpgrades.cs" t="Include" />
+            <e p="PlayerUpgrades.cs" t="Include" />
+            <e p="StoveUpgrades.cs" t="Include" />
             <e p="Upgrades.cs" t="Include" />
             <e p="VisualUpgrades.cs" t="Include" />
           </e>

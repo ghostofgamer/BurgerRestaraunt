@@ -883,8 +883,8 @@ GameObject:
   - component: {fileID: 288049423}
   - component: {fileID: 288049422}
   - component: {fileID: 288049427}
-  - component: {fileID: 288049426}
   - component: {fileID: 288049425}
+  - component: {fileID: 288049428}
   m_Layer: 5
   m_Name: UpgradeAcceptionOrder
   m_TagString: Untagged
@@ -1011,24 +1011,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levelText: {fileID: 102344081}
   _priceText: {fileID: 1011306516}
-  _upgrades: {fileID: 288049426}
+  _upgrades: {fileID: 288049428}
   _wallet: {fileID: 838691105}
---- !u!114 &288049426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288049420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7508d51602a90d14294bf07a0265397a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _wallet: {fileID: 838691105}
-  _price: 1
-  _maxLevel: 3
-  _stepUpPrice: 2
 --- !u!114 &288049427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1041,7 +1025,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 723683aeca4a67344b365a68164004e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _upgrades: {fileID: 288049426}
+  _upgrades: {fileID: 288049428}
+--- !u!114 &288049428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288049420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60560afb4b2419d4785f801b993b3e85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wallet: {fileID: 838691105}
+  _price: 1
+  _maxLevel: 3
+  _stepUpPrice: 2
+  _parametersLoad: {fileID: 498371597}
 --- !u!1 &305745257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,6 +1529,7 @@ GameObject:
   - component: {fileID: 498371592}
   - component: {fileID: 498371595}
   - component: {fileID: 498371596}
+  - component: {fileID: 498371597}
   m_Layer: 0
   m_Name: Table2
   m_TagString: Untagged
@@ -1628,6 +1630,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _loadImage: {fileID: 1376217824}
   _loadFill: {fileID: 114849203}
+  _parametersLoad: {fileID: 498371597}
+--- !u!114 &498371597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498371591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59378f01637fcd94b8fed83fd624e5fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 3
+  _factorDecreaseDuration: 0.65
 --- !u!1 &591883994 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1393701332811617065, guid: 88f3bdc7a07e74338a19e793960bd01a, type: 3}
@@ -3667,8 +3684,8 @@ GameObject:
   - component: {fileID: 1295484470}
   - component: {fileID: 1295484469}
   - component: {fileID: 1295484474}
-  - component: {fileID: 1295484473}
   - component: {fileID: 1295484472}
+  - component: {fileID: 1295484475}
   m_Layer: 5
   m_Name: UpgradeStove
   m_TagString: Untagged
@@ -3795,24 +3812,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levelText: {fileID: 102747351}
   _priceText: {fileID: 401231101}
-  _upgrades: {fileID: 1295484473}
+  _upgrades: {fileID: 1295484475}
   _wallet: {fileID: 838691105}
---- !u!114 &1295484473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295484467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7508d51602a90d14294bf07a0265397a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _wallet: {fileID: 838691105}
-  _price: 1
-  _maxLevel: 3
-  _stepUpPrice: 2
 --- !u!114 &1295484474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3825,7 +3826,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 723683aeca4a67344b365a68164004e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _upgrades: {fileID: 1295484473}
+  _upgrades: {fileID: 1295484475}
+--- !u!114 &1295484475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295484467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60560afb4b2419d4785f801b993b3e85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wallet: {fileID: 838691105}
+  _price: 1
+  _maxLevel: 3
+  _stepUpPrice: 2
+  _parametersLoad: {fileID: 2076777952}
 --- !u!1 &1306606907
 GameObject:
   m_ObjectHideFlags: 0
@@ -4504,8 +4522,8 @@ GameObject:
   - component: {fileID: 1529446796}
   - component: {fileID: 1529446795}
   - component: {fileID: 1529446800}
-  - component: {fileID: 1529446799}
   - component: {fileID: 1529446798}
+  - component: {fileID: 1529446801}
   m_Layer: 5
   m_Name: UpgradeMoveSpeed
   m_TagString: Untagged
@@ -4632,24 +4650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levelText: {fileID: 1618137885}
   _priceText: {fileID: 1657846575}
-  _upgrades: {fileID: 1529446799}
+  _upgrades: {fileID: 1529446801}
   _wallet: {fileID: 838691105}
---- !u!114 &1529446799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529446793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7508d51602a90d14294bf07a0265397a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _wallet: {fileID: 838691105}
-  _price: 1
-  _maxLevel: 3
-  _stepUpPrice: 2
 --- !u!114 &1529446800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4662,7 +4664,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 723683aeca4a67344b365a68164004e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _upgrades: {fileID: 1529446799}
+  _upgrades: {fileID: 1529446801}
+--- !u!114 &1529446801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529446793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6d314508fe3ed4c8ec9e7c34dad092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wallet: {fileID: 838691105}
+  _price: 1
+  _maxLevel: 3
+  _stepUpPrice: 2
+  _playerParameters: {fileID: 919132148704884565}
 --- !u!1 &1615379581
 GameObject:
   m_ObjectHideFlags: 0
@@ -6504,6 +6523,7 @@ GameObject:
   - component: {fileID: 2076777947}
   - component: {fileID: 2076777950}
   - component: {fileID: 2076777951}
+  - component: {fileID: 2076777952}
   m_Layer: 0
   m_Name: Stove
   m_TagString: Untagged
@@ -6604,6 +6624,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _loadImage: {fileID: 1618609490}
   _loadFill: {fileID: 1122364106}
+  _parametersLoad: {fileID: 2076777952}
+--- !u!114 &2076777952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076777946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59378f01637fcd94b8fed83fd624e5fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 3
+  _factorDecreaseDuration: 0.5
 --- !u!1 &2118679581
 GameObject:
   m_ObjectHideFlags: 0
@@ -6719,6 +6754,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.7913226, z: 1}
   m_Center: {x: 0, y: -0.3956614, z: 0}
+--- !u!114 &919132148704884565 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 207943885916740748, guid: e98537f1a4edc0d43a9479a68f05974e, type: 3}
+  m_PrefabInstance: {fileID: 7667355222301127862}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148704884557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8840e6bca7341c149bba5842408e7b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &919132148704884566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6818,6 +6864,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 207943885916740748, guid: e98537f1a4edc0d43a9479a68f05974e, type: 3}
+      propertyPath: _factorIncreaseSpeed
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 517465629756958269, guid: e98537f1a4edc0d43a9479a68f05974e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.0856205e-16
